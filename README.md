@@ -99,7 +99,6 @@ DB_HOST=localhost
 DB_USER=your_username
 DB_PASS=your_password
 DB_NAME=ecommerce_db
-JWT_SECRET=your_secret_key_here
 NODE_ENV=development
 ```
 
