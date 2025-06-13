@@ -1,0 +1,77 @@
+@keyframes progress {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0);
+  }
+  70% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes dash {
+  0% {
+    stroke-dasharray: 1, 150;
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dasharray: 90, 150;
+    stroke-dashoffset: -35;
+  }
+}
+
+.animate-progress {
+  animation: progress 2.7s ease-in-out;
+}
+
+/* Fade in animation for modal backdrop */
+.backdrop-blur-sm {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.modal-overlay {
+  animation: fadeIn 0.3s ease-out forwards;
+}
+
+.modal-content {
+  animation: slideIn 0.3s ease-out forwards;
+}
+
+.modal-exit {
+  animation: slideIn 0.3s ease-out forwards reverse;
+}
