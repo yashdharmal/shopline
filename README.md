@@ -229,3 +229,7 @@ The frontend application will be available at `http://localhost:5173`
 1. Build the application: `npm run build`
 2. Serve the `dist` directory with a web server
 3. Configure environment-specific API endpoints
+
+### Demo
+
+https://www.loom.com/share/7314f2fedce545d083d2f6a01015a22f?sid=467cc021-c403-49c7-97bd-1f807e5b2bc1
